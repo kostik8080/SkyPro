@@ -8,7 +8,7 @@ CORRECT_ANSWERS = 0
 
 # Знакомимся с ползователем
 user_name = input("Введите свое имя!: ").title()
-print(f"Привет, {user_name}")
+#print(f"Привет, {user_name}")
 
 print(f"Привет! {user_name} Предлагаю проверить свои знания английского!\nНаберите 'ready', чтобы начать!: ")
 user_ready = input()
