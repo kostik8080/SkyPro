@@ -30,7 +30,7 @@
     &quot;Notification.DoNotAsk-Vcs Notifications&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rebasing master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/DCDownloads/SkyPro&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
@@ -45,7 +45,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ONISHCHENKO_KONSTANTIN_KURS_1">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SkyPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,8 +67,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ONISHCHENKO_KONSTANTIN_KURS_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SkyPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1. Введение в программирование/Курсовая" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1. Введение в программирование/Курсовая/ONISHCHENKO_KONSTANTIN_KURS_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ONISHCHENKO_KONSTANTIN_KURS_1" />
         <item itemvalue="Python.123" />
       </list>
     </recent_temporary>
@@ -85,6 +107,55 @@
       <option name="presentableId" value="Default" />
       <updated>1691253283098</updated>
     </task>
+    <task id="LOCAL-00001" summary="привет&#10;&#10;Signed-off-by: kostik8080 &lt;kostik80_80@mail.ru&gt;">
+      <option name="closed" value="true" />
+      <created>1691873378832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691873378832</updated>
+    </task>
+    <task id="LOCAL-00002" summary="привет&#10;&#10;Signed-off-by: kostik8080 &lt;kostik80_80@mail.ru&gt;">
+      <option name="closed" value="true" />
+      <created>1691873464404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691873464404</updated>
+    </task>
+    <task id="LOCAL-00003" summary="привет&#10;&#10;Signed-off-by: kostik8080 &lt;kostik80_80@mail.ru&gt;">
+      <option name="closed" value="true" />
+      <created>1691873533504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691873533504</updated>
+    </task>
+    <task id="LOCAL-00004" summary="привет&#10;&#10;Signed-off-by: kostik8080 &lt;kostik80_80@mail.ru&gt;">
+      <option name="closed" value="true" />
+      <created>1691873717384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691873717384</updated>
+    </task>
+    <task id="LOCAL-00005" summary="привет&#10;&#10;Signed-off-by: kostik8080 &lt;kostik80_80@mail.ru&gt;">
+      <option name="closed" value="true" />
+      <created>1691873772009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691873772009</updated>
+    </task>
+    <task id="LOCAL-00006" summary="привет&#10;&#10;Signed-off-by: kostik8080 &lt;kostik80_80@mail.ru&gt;">
+      <option name="closed" value="true" />
+      <created>1691873876123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691873876123</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -107,6 +178,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="привет" />
-    <option name="LAST_COMMIT_MESSAGE" value="привет" />
+    <MESSAGE value="привет&#10;&#10;Signed-off-by: kostik8080 &lt;kostik80_80@mail.ru&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="привет&#10;&#10;Signed-off-by: kostik8080 &lt;kostik80_80@mail.ru&gt;" />
   </component>
 </project>
