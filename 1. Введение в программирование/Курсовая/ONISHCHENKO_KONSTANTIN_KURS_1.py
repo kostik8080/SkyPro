@@ -30,7 +30,7 @@ morse = {
     "f": "..-.",
     "g": "--.",
     "h": "....",
-    "i": "..",
+    "я": "..",
     "j": ".---",
     "k": "-.-",
     "l": ".-..",
@@ -56,7 +56,7 @@ morse = {
     "/": "-..-.",
     "@": ".--.-.",
     "(": "-.--.",
-    ")": "-.--.-",
+    ")": "-.--.-"
 }
 
 input("Сегодня мы потренируемся расшифровывать морзянку.Нажмите Enter и начнем")
@@ -77,11 +77,7 @@ def morse_encode(words):
     return encoding_string
 
 
-# print(morse_encode("multicoloured"))
-# print(morse_encode("try"))
-# print(morse_encode("creative"))
-# print(morse_encode("difference"))
-# print(morse_encode("screen"))
+# print(morse_encode("sos"))
 
 
 def get_word():
@@ -96,7 +92,7 @@ def get_word():
 
 
 # Цикл задает 5 вопросов в кодировке морзе и проверяет верно ответил или нет
-for i in range(len(words_angl)):
+for i in range(5):
     print(f"Слово {i + 1} -  {morse_encode(get_word())}")
     answer_i = (input())
     if answer_i == word_random:
@@ -122,5 +118,3 @@ def statistics(answers):
 
 
 statistics(answers)
-
-#print(answers)
