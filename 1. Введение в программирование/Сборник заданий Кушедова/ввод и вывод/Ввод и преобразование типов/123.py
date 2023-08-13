@@ -63,18 +63,24 @@ print(text_cleaned)"""
 
 # str.isalpha()  #проверяет, является ли строка нобором букв
 
-students = {
-  "Алиса": 70,
-  "Эльдар": 20,
-  "Агата": 40,
-  "Ярослав": 84,
-}
+# students = {
+#   "Алиса": 70,
+#   "Эльдар": 20,
+#   "Агата": 40,
+#   "Ярослав": 84,
+# }
+#
+# user_input = input()
+#
+# if students[user_input] >= 81:
+#   print(f"{students[user_input]} баллов, оценка А")
+# elif 61 <= students[user_input] <= 80:
+#   print(f"{students[user_input]} баллов, оценка В")
+# else:
+#   print(f"{students[user_input]} баллов, оценка С")
 
-user_input = input()
+lst = [1, 2, 3, 4]
 
-if students[user_input] >= 81:
-  print(f"{students[user_input]} баллов, оценка А")
-elif 61 <= students[user_input] <= 80:
-  print(f"{students[user_input]} баллов, оценка В")
-else:
-  print(f"{students[user_input]} баллов, оценка С")
+lst.insert(-1, lst.pop())
+
+print(lst)

@@ -68,5 +68,7 @@ for word, bool_value in answers.items():
     if bool_value is False:
         print(word)
 
+print()
+
 # Подсчет ранга
 print(f"Ваш ранг: \n{levels[rang_levels]}")

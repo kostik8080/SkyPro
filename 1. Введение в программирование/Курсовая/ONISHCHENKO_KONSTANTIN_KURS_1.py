@@ -92,7 +92,7 @@ def get_word():
 
 
 # Цикл задает 5 вопросов в кодировке морзе и проверяет верно ответил или нет
-for i in range(5):
+for i in range(len(words_angl)):
     print(f"Слово {i + 1} -  {morse_encode(get_word())}")
     answer_i = (input())
     if answer_i == word_random:
