@@ -4,9 +4,6 @@ import random
 # Список правивильных и неправильных ответов True/False
 answers = []
 
-# Сколько всего вопросов
-i = 0
-
 # Список английских слов
 words_angl = ["multicoloured", "try", "creative", "difference", "sos"]
 
@@ -92,8 +89,8 @@ def get_word():
 
 
 # Цикл задает 5 вопросов в кодировке морзе и проверяет верно ответил или нет
-for i in range(len(words_angl)):
-    print(f"Слово {i + 1} -  {morse_encode(get_word())}")
+for questions in range(len(words_angl)):
+    print(f"Слово {questions + 1} -  {morse_encode(get_word())}")
     answer_i = (input())
     if answer_i == word_random:
         print(f"Верно, {word_random}!")
@@ -112,7 +109,7 @@ def statistics(answers):
 
     number_of_correct = answers.count(True)
     number_of_incorrect = answers.count(False)
-    print(f"Всего задачек: {i + 1}")
+    print(f"Всего задачек: {questions + 1}")
     print(f"Отвечено верно: {number_of_correct}")
     print(f"Отвечено неверно: {number_of_incorrect}")
 
